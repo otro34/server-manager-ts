@@ -1,6 +1,6 @@
-import { UserCredentialsDBAccess } from '../src/Authorization/UserCredentialsDBAccess'
-import { WorkingPosition } from '../src/Shared/Model'
-import { UsersDBAccess } from '../src/User/UsersDBAccess'
+import { UserCredentialsDBAccess } from '../Authorization/UserCredentialsDBAccess'
+import { WorkingPosition } from '../Shared/Model'
+import { UsersDBAccess } from '../User/UsersDBAccess'
 
 class DbTest {
     public dbAccess: UserCredentialsDBAccess = new UserCredentialsDBAccess()
